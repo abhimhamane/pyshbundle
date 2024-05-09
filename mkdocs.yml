@@ -13,10 +13,11 @@ plugins:
     - mkdocstrings
     - git-revision-date
     - mkdocs-jupyter:
-          include_source: True
-           execute: True
-           execute_ignore: "*.ipynb"
-           kernel_name: python3
+            include_source: True
+            ignore_h1_titles: True
+            execute: True
+            execute_ignore: "*.ipynb"
+            kernel_name: python3
           
 markdown_extensions:
     - attr_list
