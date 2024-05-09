@@ -14,9 +14,10 @@ plugins:
     - git-revision-date
     - mkdocs-jupyter:
           include_source: True
-        #   ignore_h1_titles: True
-        #   execute: True
-        #   execute_ignore: "*.ipynb"
+           ignore_h1_titles: True
+           execute: True
+           execute_ignore: "*.ipynb"
+           kernel_name: python3
           
 markdown_extensions:
     - attr_list
@@ -42,9 +43,8 @@ nav:
     - Theoretical Background: theory.md
     - Installation: installation.md
     - Usage: usage.md
+            - Notebooks: notebooks.md
     - Contributing: contributing.md
-    - FAQ: faq.md
-    - Changelog: changelog.md
     - Report Issues: https://github.com/mn5hk/pyshbundle/issues
     - Reference Manual:
             - pyshbundle Introduction: pyshbundle.md
@@ -53,4 +53,6 @@ nav:
             - Core Functionality: core_functionality.md
             - Auxillary Codes: auxillary_codes.md
     - Acknowledgement: acknowledgement.md
+    - FAQ: faq.md
+    - Changelog: changelog.md
     - License: license.md
