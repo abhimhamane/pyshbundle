@@ -43,7 +43,7 @@ nav:
     - Theoretical Background: theory.md
     - Installation: installation.md
     - Usage: usage.md
-            - Notebooks: notebooks.md
+            #- Notebooks: notebooks.md
     - Contributing: contributing.md
     - Report Issues: https://github.com/mn5hk/pyshbundle/issues
     - Reference Manual:
